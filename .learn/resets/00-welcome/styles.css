@@ -1,6 +1,5 @@
 body {
 	background: black;
-	font-family: sans-serif;
 }
 
 /** {
@@ -9,11 +8,10 @@ body {
 }*/
 
 .postcard {
-	background: #d4d6d8;
-	width: 450px;
-	height: 280px;
+	background: white;
+	width: 400px;
+	height: 300px;
 	margin: auto;
-	border: solid 2px cyan;
 }
 
 .postcard-header {
@@ -23,12 +21,11 @@ body {
 .postcard-header img {
 	width: 50px;
 	height: 50px;
-	margin: 2px 0 0 0;
 }
 
 .postcard-header h1 {
 	width: 80%;
-	margin: 2px 10px 0 0;
+	margin: 0 10px 0 0;
 }
 
 .postcard-body {
@@ -41,11 +38,10 @@ body {
 
 .body-left,
 .body-right {
-	padding: 10px;
+	padding: 15px;
 }
 
 input {
-	margin: 5px;
 	border: none;
 	border-bottom: solid 1px gray;
 }
@@ -55,13 +51,10 @@ input {
 }
 
 button {
-	color: #fff;
-	background-color: #148fcb;
-	padding: 7px;
-	border: none;
-	border-radius: 5px;
+	background-color: blue;
+	padding: 3px;
 }
 
 button:hover {
-	background-color: #147faf;
+	background-color: darkblue;
 }
